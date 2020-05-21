@@ -6,6 +6,9 @@ branding:
   color: orange
 
 inputs:
+  args:
+    description: Command to run
+    required: true
   domain:
     description: Auth0 Domain
     required: true
